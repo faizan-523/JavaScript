@@ -19,3 +19,10 @@ isLoggedIn = 1
 booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn)
 console.log(typeof booleanIsLoggedIn) //1 is converted to true because 1 is a truthy value
+
+/* non zero number is always converted to true 
+if the string is empty it is converted to false otherwise true
+if there is number and character in the string and it is converted to number
+it will give output of Nan but if it is converted to boolean it will give true
+if the value is null it is converted to false in boolean
+*/
